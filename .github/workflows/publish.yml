@@ -23,6 +23,12 @@ jobs:
           # 选择要使用的 node 版本
           node-version: '16'
 
+      # 安装pnpm
+      - name: Install pnpm
+      - uses: pnpm/action-setup@v2.1.0
+        with:
+          version: 6.0.2
+
       # 缓存 node_modules
       - name: Cache dependencies
         uses: actions/cache@v2

@@ -1,0 +1,24 @@
+{
+  "name": "wsszh01111.github.io",
+  "version": "1.0.0",
+  "description": "My Blog",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev .",
+    "build": "vuepress build .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wsszh01111/wsszh01111.github.io.git"
+  },
+  "author": "wsszh01111",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wsszh01111/wsszh01111.github.io/issues"
+  },
+  "homepage": "https://github.com/wsszh01111/wsszh01111.github.io#readme",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.36"
+  }
+}

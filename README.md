@@ -1,2 +1,5 @@
-# wsszh01111.github.io
-My Blog
+---
+home: false
+---
+
+# Just My Blog :-p

@@ -54,8 +54,9 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
-          # 部署到 publish 分支
-          target_branch: publish
+          # 部署到 gh-pages 分支
+          # https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#troubleshooting-publishing-problems-with-your-github-pages-site
+          target_branch: gh-pages
           # 部署目录为 VuePress 的默认输出目录
           build_dir: .vuepress/dist
         env:

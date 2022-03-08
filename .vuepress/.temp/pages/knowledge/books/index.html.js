@@ -1,17 +1,15 @@
 export const data = {
-  "key": "v-003c11ac",
-  "path": "/knowledge/",
-  "title": "知识",
+  "key": "v-519da26f",
+  "path": "/knowledge/books/",
+  "title": "书",
   "lang": "zh-CN",
-  "frontmatter": {
-    "navbar": true
-  },
+  "frontmatter": {},
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1646312980000
+    "updatedTime": null
   },
-  "filePathRelative": "knowledge/README.md"
+  "filePathRelative": "knowledge/books/README.md"
 }
 
 if (import.meta.webpackHot) {

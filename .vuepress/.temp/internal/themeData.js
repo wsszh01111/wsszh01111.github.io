@@ -17,6 +17,24 @@ export const themeData = {
       "link": "/ideas/"
     }
   ],
+  "sidebar": {
+    "/knowledge/": [
+      {
+        "text": "知识",
+        "link": "/knowledge/",
+        "children": [
+          {
+            "text": "书",
+            "link": "/knowledge/books/",
+            "children": [
+              "/knowledge/books/《CSS世界》.md",
+              "/knowledge/books/WebAssembly入门课.md"
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "locales": {
     "/": {
       "selectLanguageName": "English"
@@ -26,7 +44,6 @@ export const themeData = {
   "darkMode": true,
   "selectLanguageText": "Languages",
   "selectLanguageAriaLabel": "Select language",
-  "sidebar": "auto",
   "sidebarDepth": 2,
   "editLinkText": "Edit this page",
   "lastUpdated": true,
@@ -42,4 +59,17 @@ export const themeData = {
   "openInNewWindow": "open in new window",
   "toggleDarkMode": "toggle dark mode",
   "toggleSidebar": "toggle sidebar"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateThemeData) {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ themeData }) => {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  })
 }

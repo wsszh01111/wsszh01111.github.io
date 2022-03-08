@@ -1,17 +1,15 @@
 export const data = {
-  "key": "v-003c11ac",
-  "path": "/knowledge/",
-  "title": "知识",
+  "key": "v-0177d7d8",
+  "path": "/knowledge/node/Shebang.html",
+  "title": "Shebang",
   "lang": "zh-CN",
-  "frontmatter": {
-    "navbar": true
-  },
+  "frontmatter": {},
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1646312980000
+    "updatedTime": null
   },
-  "filePathRelative": "knowledge/README.md"
+  "filePathRelative": "knowledge/node/Shebang.md"
 }
 
 if (import.meta.webpackHot) {

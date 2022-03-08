@@ -24,5 +24,21 @@ export default defineUserConfig<DefaultThemeOptions>({
         link: '/ideas/'
       }
     ],
+    sidebar: {
+      '/knowledge/': [
+        {
+          text: '知识',
+          link: '/knowledge/',
+          children: [{
+            text: '书',
+            link: '/knowledge/books/',
+            children: [
+              '/knowledge/books/《CSS世界》.md',
+              '/knowledge/books/WebAssembly入门课.md',
+            ]
+          }]
+        }
+      ]
+    }
   }
 })

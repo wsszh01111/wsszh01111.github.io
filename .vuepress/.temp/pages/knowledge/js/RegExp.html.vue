@@ -1,0 +1,44 @@
+<template><h1 id="js中的正则" tabindex="-1"><a class="header-anchor" href="#js中的正则" aria-hidden="true">#</a> JS中的正则</h1>
+<h2 id="api" tabindex="-1"><a class="header-anchor" href="#api" aria-hidden="true">#</a> API</h2>
+<p>JS中跟正则相关的API一共7个</p>
+<p>分别是挂载在<code>RegExp.prototype</code>上的exec和test，挂载在<code>String.prototype</code>上的match、matchAll、search、replace、split（这是因为正则的处理主要跟字符串相关）</p>
+<p>根据用途不同主要可以分为三类：</p>
+<ul>
+<li>
+<p>判断是否成功匹配</p>
+<p>test和search主要是判断正则匹配是否成功，性能比较高执行快，主要区别是test会返回布尔值，search返回的则是首次匹配到的位置索引</p>
+</li>
+<li>
+<p>获取正则匹配的具体信息</p>
+<p>exec、match没有匹配到时会返回null，匹配到时会返回一个数组，记录匹配结果，形如<code>[&quot;a&quot;, index: 0, input: &quot;aaa&quot;, groups: undefined]</code>，注意到数组对象还具有附加属性groups、index、input，分别是一个捕获组数组、匹配索引位置和用来被匹配的字符串</p>
+<p>matchAll跟上述的主要区别是只适用于全局模式的正则匹配且返回的是一个迭代器，可以一次性获取所有匹配结果</p>
+</li>
+<li>
+<p>其他功能</p>
+<p>replace会对匹配结果进行替换，split会根据匹配结果进行分割</p>
+</li>
+</ul>
+<h2 id="全局模式" tabindex="-1"><a class="header-anchor" href="#全局模式" aria-hidden="true">#</a> 全局模式</h2>
+<p>全局模式取决于正则表达式中是否带了g标识，全局模式会给正则匹配带来一些不同于非全局模式的行为</p>
+<p>跟全局模式相关的还有两个属性RegExp.prototype.global和regExpInstance.lastIndex。RegExp.prototype.global用于标识正则是否是全局匹配模式，注意挂载在RegExp原型上的global实际上是一个只具有getter函数的访问器属性，这样也能合理解释global挂载在原型上却能标识不同正则实例的全局模式状态。regExpInstance.lastIndex则是一个可读可写的整型属性，指定下一次正则匹配的起始索引，非全局模式时他始终为0，全局模式下，一些API的调用会设置该值，且下一次的调用会依赖该值。主要细节如下：</p>
+<ol>
+<li>
+<p>RegExp.prototype.test和RegExp.prototype.exec在全局匹配，会每次返回一个匹配项，并设置lastIndex的值，再执行一次时，会依赖lastIndex的值作为匹配的起始索引，直至索引超出长度限制，被重置为0</p>
+</li>
+<li>
+<p>String.prototype.search会忽略全局模式，匹配行为跟非全局模式一致</p>
+</li>
+<li>
+<p>String.prototype.match在全局模式下，会直接返回所有所有匹配结果，形如[&quot;test&quot;, &quot;test&quot;]</p>
+</li>
+<li>
+<p>String.prototype.replace在全局模式下，会直接替换全局匹配结果</p>
+</li>
+</ol>
+<h2 id="贪婪匹配" tabindex="-1"><a class="header-anchor" href="#贪婪匹配" aria-hidden="true">#</a> 贪婪匹配</h2>
+<p>所谓贪婪匹配（且正则匹配默认情况下就是贪婪模式），即正则匹配会尽量多的去匹配符合表达式的内容，主要是在正则中使用量词时会受到贪婪匹配的影响，即+、?、*、{n}、{n,}、{n,m}。如在使用+时，表示匹配一个或多个内容，贪婪匹配就会去匹配尽可能多的情况，非贪婪匹配则仅会匹配一个。</p>
+<p>也可以指定非贪婪模式，在原有的量词后加?，即+?、??、*?、{n}?、{n,}?、{n,m}?。非贪婪模式下，量词就会尽可能匹配少的内容</p>
+<h2 id="回溯" tabindex="-1"><a class="header-anchor" href="#回溯" aria-hidden="true">#</a> 回溯</h2>
+<p>回溯具体示例<a href="https://www.cnblogs.com/echolun/p/12077829.html" target="_blank" rel="noopener noreferrer">详见<ExternalLinkIcon/></a></p>
+<p>所谓回溯，就是在正则匹配的过程中，量词匹配根据实际情况增减匹配数量的情况。如在贪婪模式下，量词会尽可能多的匹配内容，但如果会导致后面的匹配失败，则前面的匹配内容也会被“吐”出来一部分；或者在非贪婪模式下，尽可能少的匹配内容会导致整体匹配失败，则量词也会适当多匹配一些。具体形式也就是匹配索引又往回指向，这大概也就是其称之为回溯的原因</p>
+</template>

@@ -2,6 +2,6 @@
 navbar: true
 ---
 
-# knowledge
+# 知识
 
-knowledge
+构筑自己的知识体系，学而时习之

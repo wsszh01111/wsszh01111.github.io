@@ -1,4 +1,4 @@
-<template><h1 id="js中的正则" tabindex="-1"><a class="header-anchor" href="#js中的正则" aria-hidden="true">#</a> JS中的正则</h1>
+<template><h1 id="regexp" tabindex="-1"><a class="header-anchor" href="#regexp" aria-hidden="true">#</a> RegExp</h1>
 <h2 id="api" tabindex="-1"><a class="header-anchor" href="#api" aria-hidden="true">#</a> API</h2>
 <p>JS中跟正则相关的API一共7个</p>
 <p>分别是挂载在<code>RegExp.prototype</code>上的exec和test，挂载在<code>String.prototype</code>上的match、matchAll、search、replace、split（这是因为正则的处理主要跟字符串相关）</p>

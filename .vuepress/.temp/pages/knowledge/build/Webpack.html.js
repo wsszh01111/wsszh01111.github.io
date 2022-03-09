@@ -1,53 +1,53 @@
 export const data = {
-  "key": "v-039871d2",
-  "path": "/knowledge/vue/shared/CompositionAPI.html",
-  "title": "Composition API",
+  "key": "v-23c95c57",
+  "path": "/knowledge/build/Webpack.html",
+  "title": "webpack",
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",
   "headers": [
     {
       "level": 2,
-      "title": "背景",
-      "slug": "背景",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "API",
-      "slug": "api",
+      "title": "通过源码看webpack打包原理",
+      "slug": "通过源码看webpack打包原理",
       "children": [
         {
           "level": 3,
-          "title": "ref",
-          "slug": "ref",
+          "title": "webpack启动过程",
+          "slug": "webpack启动过程",
           "children": []
         },
         {
           "level": 3,
-          "title": "toRefs",
-          "slug": "torefs",
+          "title": "webpack-cli主流程",
+          "slug": "webpack-cli主流程",
           "children": []
         },
         {
           "level": 3,
-          "title": "watch",
-          "slug": "watch",
+          "title": "Tapable",
+          "slug": "tapable",
           "children": []
         },
         {
           "level": 3,
-          "title": "computed",
-          "slug": "computed",
+          "title": "Webpack主流程",
+          "slug": "webpack主流程",
           "children": []
         }
       ]
+    },
+    {
+      "level": 2,
+      "title": "webpack5的一些更新",
+      "slug": "webpack5的一些更新",
+      "children": []
     }
   ],
   "git": {
     "updatedTime": null
   },
-  "filePathRelative": "knowledge/vue/shared/CompositionAPI.md"
+  "filePathRelative": "knowledge/build/Webpack.md"
 }
 
 if (import.meta.webpackHot) {

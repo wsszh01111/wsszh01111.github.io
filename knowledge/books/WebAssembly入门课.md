@@ -1,5 +1,8 @@
 # WebAssembly入门课
 
+极客时间[WebAssembly入门课](https://time.geekbang.org/column/intro/100059901)的部分笔记
+
+
 ## 核心原理
 
 ### WebAssembly二进制层面的基本数据规则

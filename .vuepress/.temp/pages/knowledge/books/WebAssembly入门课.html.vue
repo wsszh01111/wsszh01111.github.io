@@ -1,4 +1,5 @@
 <template><h1 id="webassembly入门课" tabindex="-1"><a class="header-anchor" href="#webassembly入门课" aria-hidden="true">#</a> WebAssembly入门课</h1>
+<p>极客时间<a href="https://time.geekbang.org/column/intro/100059901" target="_blank" rel="noopener noreferrer">WebAssembly入门课<ExternalLinkIcon/></a>的部分笔记</p>
 <h2 id="核心原理" tabindex="-1"><a class="header-anchor" href="#核心原理" aria-hidden="true">#</a> 核心原理</h2>
 <h3 id="webassembly二进制层面的基本数据规则" tabindex="-1"><a class="header-anchor" href="#webassembly二进制层面的基本数据规则" aria-hidden="true">#</a> WebAssembly二进制层面的基本数据规则</h3>
 <p>即WebAssembly针对不同数据类型有不同的编码方式</p>

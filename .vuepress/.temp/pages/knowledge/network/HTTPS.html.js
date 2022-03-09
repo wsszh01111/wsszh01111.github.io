@@ -1,44 +1,38 @@
 export const data = {
-  "key": "v-7ec1319a",
-  "path": "/knowledge/vue/vue3/CompositionAPI.html",
-  "title": "Composition API",
+  "key": "v-6683b3ce",
+  "path": "/knowledge/network/HTTPS.html",
+  "title": "HTTPS",
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",
   "headers": [
     {
       "level": 2,
-      "title": "背景",
-      "slug": "背景",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "API",
-      "slug": "api",
+      "title": "TLS/SSL是如何基于非对称加密做到安全的",
+      "slug": "tls-ssl是如何基于非对称加密做到安全的",
       "children": [
         {
           "level": 3,
-          "title": "ref",
-          "slug": "ref",
+          "title": "非对称加密是什么",
+          "slug": "非对称加密是什么",
           "children": []
         },
         {
           "level": 3,
-          "title": "toRefs",
-          "slug": "torefs",
+          "title": "数据安全传递和数字签名的一些问题",
+          "slug": "数据安全传递和数字签名的一些问题",
           "children": []
         },
         {
           "level": 3,
-          "title": "watch",
-          "slug": "watch",
+          "title": "TLS/SSL简单模型",
+          "slug": "tls-ssl简单模型",
           "children": []
         },
         {
           "level": 3,
-          "title": "computed",
-          "slug": "computed",
+          "title": "证书信任链",
+          "slug": "证书信任链",
           "children": []
         }
       ]
@@ -47,7 +41,7 @@ export const data = {
   "git": {
     "updatedTime": null
   },
-  "filePathRelative": "knowledge/vue/vue3/CompositionAPI.md"
+  "filePathRelative": "knowledge/network/HTTPS.md"
 }
 
 if (import.meta.webpackHot) {

@@ -1,7 +1,7 @@
 export const data = {
   "key": "v-21a74958",
   "path": "/knowledge/js/RegExp.html",
-  "title": "JS中的正则",
+  "title": "RegExp",
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",

@@ -20,6 +20,10 @@ export default defineUserConfig<DefaultThemeOptions>({
         link: '/knowledge/',
       },
       {
+        text: '算法',
+        link: '/algorithms/',
+      },
+      {
         text: '想法',
         link: '/ideas/'
       }
@@ -123,6 +127,55 @@ export default defineUserConfig<DefaultThemeOptions>({
                 '/knowledge/others/GUN.md',
               ]
           }]
+        }
+      ],
+      '/algorithms/': [
+        {
+          text: '算法',
+          link: '/algorithms/',
+          children: [
+            {
+              text: 'Leetcode',
+              link: '/algorithms/leetcode/',
+              children: [
+                "/algorithms/leetcode/11.20220302.maxArea.md",
+                "/algorithms/leetcode/14.LongestCommonPrefix.md",
+                "/algorithms/leetcode/145.20220224.BinaryTreePostorderTraversal.md",
+                "/algorithms/leetcode/15.Sum3.md",
+                "/algorithms/leetcode/1541.20220310.MinInsertions.md",
+                "/algorithms/leetcode/16.20220228.ThreeSumClosest.md",
+                "/algorithms/leetcode/17.LetterCombinationsOfAPhoneNumber.md",
+                "/algorithms/leetcode/1791.20220218.FindCenterOfStarGraph.md",
+                "/algorithms/leetcode/20.20220308.IsValid.md",
+                "/algorithms/leetcode/2016.20220226.MaximumDifference.md",
+                "/algorithms/leetcode/2100.20220306.GoodDaysToRobBank.md",
+                "/algorithms/leetcode/2104.md",
+                "/algorithms/leetcode/234.20220218.PalindromeLinkedList.md",
+                "/algorithms/leetcode/258.20220303.AddDigits.md",
+                "/algorithms/leetcode/292.20220222.NimGame.md",
+                "/algorithms/leetcode/3.LengthOfLongestSubString.md",
+                "/algorithms/leetcode/300.20220225.LongestIncreasingSubsequence.md",
+                "/algorithms/leetcode/34.FindFirstAndLastPositionOfElementInSortedArray.md",
+                "/algorithms/leetcode/392.IsSubSequence.md",
+                "/algorithms/leetcode/448.FindAllNumbersDisappearedInAnArray.md",
+                "/algorithms/leetcode/47.20220223.PermuteUnique.md",
+                "/algorithms/leetcode/5.LongestPlalindrome.md",
+                "/algorithms/leetcode/504.20220307.ConvertToBase7.md",
+                "/algorithms/leetcode/521.20220305.findLUSLength.md",
+                "/algorithms/leetcode/6.20220303.ZigzagConversion.md",
+                "/algorithms/leetcode/688.20220217.KnightProbabilityInChessboard.md",
+                "/algorithms/leetcode/704.BinarySearch.md",
+                "/algorithms/leetcode/717.20220220.IsOneBitCharacter.md",
+                "/algorithms/leetcode/8.20220227.myAtoi.md",
+                "/algorithms/leetcode/838.20220221.PushDominoes.md",
+                "/algorithms/leetcode/875.20220220.KokoEatingBananas.md",
+                "/algorithms/leetcode/9.PalindromeNumber.md",
+                "/algorithms/leetcode/917.20220223.ReverseOnlyLetters.md",
+                "/algorithms/leetcode/921.20220309.MinAddToMakeValid.md",
+                "/algorithms/leetcode/969.20220219.PancakeSorting.md",
+              ]
+            }
+          ]
         }
       ]
     }

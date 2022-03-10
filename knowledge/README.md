@@ -1,5 +1,6 @@
 ---
 navbar: true
+lastUpdated: false
 ---
 
 # 知识

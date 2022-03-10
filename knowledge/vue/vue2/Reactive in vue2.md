@@ -20,8 +20,6 @@ Vue的数据响应式，其本质上是一种观察者模式的实践。数据�
 
 ![响应式原理](https://cn.vuejs.org/images/data.png)
 
-![Vue数据响应式原理-模型关系图 (1)](/Users/admin/Downloads/Vue数据响应式原理-模型关系图 (1).png)
-
 其基本思路如上图。每个组件均有一个对应的Watcher实例。组件初始化时，Vue通过`Object.defineProperty`代理数据对象的每个属性，拦截属性的读取和写入操作，使得每个数据属性获得读取函数（getter）和写入函数（setter）。很巧妙的利用了视图在渲染时需要读取属性值，在组件渲染视图读取某个属性时（Touch），在读取函数（getter）中建立当前组件和该数据对象属性的依赖关系（Collect as Dependency）。对数据属性的更新本质上是一种写入操作，在写入时通知（Notify）跟当前属性具有依赖关系的组件更新视图（re-render）。
 
 > Object.defineProperty是无法被shim的（即无法替代实现），这也是Vue不支持IE8的原因。
@@ -355,9 +353,7 @@ export function defineReactive (
 
 将数据转成响应式的阶段基本到这里就结束了，总体而言就是为数据对象生成和挂载`Observer`实例，将每个对象属性转换成响应式，为数据对象和对象属性生成`Dep`实例用于后续维护依赖关系。
 
-一张简单的模型关系图如下：
 
-![Vue数据响应式原理-模型关系图](/Users/admin/Downloads/Vue数据响应式原理-模型关系图.png)
 
 ### 依赖收集
 

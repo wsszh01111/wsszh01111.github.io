@@ -173,6 +173,9 @@ export default defineUserConfig<DefaultThemeOptions>({
                 "/algorithms/leetcode/917.20220223.ReverseOnlyLetters.md",
                 "/algorithms/leetcode/921.20220309.MinAddToMakeValid.md",
                 "/algorithms/leetcode/969.20220219.PancakeSorting.md",
+                "/algorithms/leetcode/590.20220312.NAryTreePostorderTraversal.md",
+                "/algorithms/leetcode/543.20220313.DiameterOfBinaryTree.md",
+                "/algorithms/leetcode/102.20220313.LevelOrder.md",
               ]
             }
           ]

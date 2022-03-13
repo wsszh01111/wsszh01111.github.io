@@ -4,4 +4,5 @@ sidebar: false
 lastUpdated: false
 ---
 
-# [asdf](/blogs/blog1)
+
+# [新的开始](/blogs/new%20start)

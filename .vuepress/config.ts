@@ -177,7 +177,8 @@ export default defineUserConfig<DefaultThemeOptions>({
                 "/algorithms/leetcode/543.20220313.DiameterOfBinaryTree.md",
                 "/algorithms/leetcode/102.20220313.LevelOrder.md",
                 "/algorithms/leetcode/599.20220314.FindRestaurant.md",
-                "/algorithms/leetcode/78.20220315.Subsets.md"
+                "/algorithms/leetcode/78.20220315.Subsets.md",
+                "/algorithms/leetcode/77.20220316.Combinations.md"
               ]
             }
           ]

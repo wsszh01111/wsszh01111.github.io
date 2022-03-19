@@ -181,6 +181,7 @@ export default defineUserConfig<DefaultThemeOptions>({
                 "/algorithms/leetcode/77.20220316.Combinations.md",
                 "/algorithms/leetcode/90.20220316.SubsetsWithDup.md",
                 "/algorithms/leetcode/40.20220317.CombinationSum2.md",
+                "/algorithms/leetcode/606.20220319.Tree2str.md",
               ]
             }
           ]

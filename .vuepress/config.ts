@@ -184,7 +184,8 @@ export default defineUserConfig<DefaultThemeOptions>({
                 "/algorithms/leetcode/606.20220319.Tree2str.md",
                 '/algorithms/leetcode/39.20220320.CombinationSum.md',
                 '/algorithms/leetcode/146.20220322.LRUCache.md',
-                '/algorithms/leetcode/2028.20220327.MissingRolls.md'
+                '/algorithms/leetcode/2028.20220327.MissingRolls.md',
+                '/algorithms/leetcode/693.20220328.HasAlternatingBits.md',
               ]
             }
           ]

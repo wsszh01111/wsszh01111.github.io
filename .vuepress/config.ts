@@ -188,6 +188,7 @@ export default defineUserConfig<DefaultThemeOptions>({
                 '/algorithms/leetcode/693.20220328.HasAlternatingBits.md',
                 '/algorithms/leetcode/354.20220329.MaxEnvelopes.md',
                 '/algorithms/leetcode/53.20220330.MaxSubArray.md',
+                '/algorithms/leetcode/1143.20220331.LongestCommonSubsequence.md'
               ]
             }
           ]

@@ -187,6 +187,7 @@ export default defineUserConfig<DefaultThemeOptions>({
                 '/algorithms/leetcode/2028.20220327.MissingRolls.md',
                 '/algorithms/leetcode/693.20220328.HasAlternatingBits.md',
                 '/algorithms/leetcode/354.20220329.MaxEnvelopes.md',
+                '/algorithms/leetcode/53.20220330.MaxSubArray.md',
               ]
             }
           ]

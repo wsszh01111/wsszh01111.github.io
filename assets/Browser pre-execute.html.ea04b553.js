@@ -1,0 +1,1 @@
+const e={key:"v-5df678cb",path:"/knowledge/others/Browser%20pre-execute.html",title:"Browser pre-execute",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1646843015e3},filePathRelative:"knowledge/others/Browser pre-execute.md"};export{e as data};

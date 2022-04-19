@@ -1,0 +1,1 @@
+const e={key:"v-26fdcc6c",path:"/algorithms/leetcode/392.IsSubSequence.html",title:"392. \u5224\u65AD\u5B50\u5E8F\u5217",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u601D\u8DEF1",slug:"\u601D\u8DEF1",children:[]}],git:{updatedTime:1646928831e3},filePathRelative:"algorithms/leetcode/392.IsSubSequence.md"};export{e as data};

@@ -1,0 +1,1 @@
+const e={key:"v-1be13096",path:"/algorithms/leetcode/14.LongestCommonPrefix.html",title:"14. \u6700\u957F\u516C\u5171\u524D\u7F00",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u601D\u8DEF1",slug:"\u601D\u8DEF1",children:[]}],git:{updatedTime:1646928831e3},filePathRelative:"algorithms/leetcode/14.LongestCommonPrefix.md"};export{e as data};

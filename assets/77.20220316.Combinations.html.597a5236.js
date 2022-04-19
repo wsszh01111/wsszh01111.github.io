@@ -1,0 +1,1 @@
+const e={key:"v-6ac222f3",path:"/algorithms/leetcode/77.20220316.Combinations.html",title:"77. \u7EC4\u5408",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u601D\u8DEF1",slug:"\u601D\u8DEF1",children:[]}],git:{updatedTime:1647397998e3},filePathRelative:"algorithms/leetcode/77.20220316.Combinations.md"};export{e as data};

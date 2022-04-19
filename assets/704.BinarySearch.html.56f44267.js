@@ -1,0 +1,1 @@
+const e={key:"v-67705895",path:"/algorithms/leetcode/704.BinarySearch.html",title:"704. \u4E8C\u5206\u67E5\u627E",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u601D\u8DEF1",slug:"\u601D\u8DEF1",children:[]}],git:{updatedTime:1646928831e3},filePathRelative:"algorithms/leetcode/704.BinarySearch.md"};export{e as data};

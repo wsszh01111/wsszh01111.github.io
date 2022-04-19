@@ -1,0 +1,1 @@
+const e={key:"v-b26deb9c",path:"/algorithms/",title:"\u7B97\u6CD5",lang:"zh-CN",frontmatter:{navbar:!0,lastUpdated:!1},excerpt:"",headers:[{level:2,title:"\u8BB0\u5F55\u4E00\u4E9B\u611F\u53D7",slug:"\u8BB0\u5F55\u4E00\u4E9B\u611F\u53D7",children:[]}],git:{updatedTime:164715906e4},filePathRelative:"algorithms/README.md"};export{e as data};

@@ -1,0 +1,1 @@
+const e={key:"v-f0d120b8",path:"/algorithms/leetcode/53.20220330.MaxSubArray.html",title:"53. \u6700\u5927\u5B50\u6570\u7EC4\u548C",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u601D\u8DEF1",slug:"\u601D\u8DEF1",children:[]}],git:{updatedTime:1648698422e3},filePathRelative:"algorithms/leetcode/53.20220330.MaxSubArray.md"};export{e as data};

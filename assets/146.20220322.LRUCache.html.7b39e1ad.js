@@ -1,0 +1,1 @@
+const e={key:"v-0c543e88",path:"/algorithms/leetcode/146.20220322.LRUCache.html",title:"146. LRU \u7F13\u5B58",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u601D\u8DEF1",slug:"\u601D\u8DEF1",children:[]}],git:{updatedTime:1647999999e3},filePathRelative:"algorithms/leetcode/146.20220322.LRUCache.md"};export{e as data};

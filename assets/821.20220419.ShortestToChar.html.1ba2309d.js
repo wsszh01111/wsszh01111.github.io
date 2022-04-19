@@ -1,0 +1,1 @@
+const e={key:"v-c9cf694e",path:"/algorithms/leetcode/821.20220419.ShortestToChar.html",title:"821. \u5B57\u7B26\u7684\u6700\u77ED\u8DDD\u79BB",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u601D\u8DEF1",slug:"\u601D\u8DEF1",children:[]}],git:{updatedTime:1650379151e3},filePathRelative:"algorithms/leetcode/821.20220419.ShortestToChar.md"};export{e as data};

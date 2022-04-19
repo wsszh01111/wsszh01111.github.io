@@ -1,0 +1,1 @@
+const e={key:"v-08ee10a2",path:"/knowledge/others/Big%20O.html",title:"Big O",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1646843015e3},filePathRelative:"knowledge/others/Big O.md"};export{e as data};

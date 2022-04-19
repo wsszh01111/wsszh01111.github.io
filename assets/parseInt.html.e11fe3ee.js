@@ -1,0 +1,1 @@
+const e={key:"v-6ae76301",path:"/knowledge/js/parseInt.html",title:"parseInt",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1646843015e3},filePathRelative:"knowledge/js/parseInt.md"};export{e as data};

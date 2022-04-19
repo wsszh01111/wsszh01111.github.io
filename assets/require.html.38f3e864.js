@@ -1,0 +1,1 @@
+const e={key:"v-9a51a0d2",path:"/knowledge/node/require.html",title:"require",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u52A0\u8F7D\u673A\u5236",slug:"\u52A0\u8F7D\u673A\u5236",children:[]},{level:2,title:"\u53C2\u8003",slug:"\u53C2\u8003",children:[]}],git:{updatedTime:1646843015e3},filePathRelative:"knowledge/node/require.md"};export{e as data};

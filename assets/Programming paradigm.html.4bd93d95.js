@@ -1,0 +1,1 @@
+const e={key:"v-4e0723bc",path:"/knowledge/others/Programming%20paradigm.html",title:"Programming paradigm",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u53C2\u8003",slug:"\u53C2\u8003",children:[]}],git:{updatedTime:1646843015e3},filePathRelative:"knowledge/others/Programming paradigm.md"};export{e as data};

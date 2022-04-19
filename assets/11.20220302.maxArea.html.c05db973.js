@@ -1,0 +1,1 @@
+const e={key:"v-004fcbed",path:"/algorithms/leetcode/11.20220302.maxArea.html",title:"11. \u76DB\u6700\u591A\u6C34\u7684\u5BB9\u5668",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u601D\u8DEF1",slug:"\u601D\u8DEF1",children:[]}],git:{updatedTime:1646928831e3},filePathRelative:"algorithms/leetcode/11.20220302.maxArea.md"};export{e as data};

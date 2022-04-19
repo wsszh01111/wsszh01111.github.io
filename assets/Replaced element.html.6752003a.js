@@ -1,0 +1,1 @@
+const e={key:"v-db38378c",path:"/knowledge/css/Replaced%20element.html",title:"Replaced element",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1646843015e3},filePathRelative:"knowledge/css/Replaced element.md"};export{e as data};

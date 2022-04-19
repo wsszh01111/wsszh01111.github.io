@@ -1,0 +1,1 @@
+const e={key:"v-74c64da0",path:"/knowledge/js/bind.html",title:"bind",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1646843015e3},filePathRelative:"knowledge/js/bind.md"};export{e as data};

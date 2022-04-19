@@ -1,0 +1,1 @@
+const e={key:"v-3d5e9d50",path:"/algorithms/leetcode/504.20220307.ConvertToBase7.html",title:"504. \u4E03\u8FDB\u5236\u6570",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u601D\u8DEF1",slug:"\u601D\u8DEF1",children:[]}],git:{updatedTime:1646928831e3},filePathRelative:"algorithms/leetcode/504.20220307.ConvertToBase7.md"};export{e as data};

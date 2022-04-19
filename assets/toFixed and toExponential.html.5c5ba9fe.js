@@ -1,0 +1,1 @@
+const e={key:"v-7557aca1",path:"/knowledge/js/toFixed%20and%20toExponential.html",title:"toFixed and toExponential",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u95EE\u9898",slug:"\u95EE\u9898",children:[]}],git:{updatedTime:1646843015e3},filePathRelative:"knowledge/js/toFixed and toExponential.md"};export{e as data};

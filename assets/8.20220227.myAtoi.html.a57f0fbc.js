@@ -1,0 +1,1 @@
+const t={key:"v-52f54496",path:"/algorithms/leetcode/8.20220227.myAtoi.html",title:"8. \u5B57\u7B26\u4E32\u8F6C\u6362\u6574\u6570 (atoi)",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u601D\u8DEF1",slug:"\u601D\u8DEF1",children:[]}],git:{updatedTime:1646928831e3},filePathRelative:"algorithms/leetcode/8.20220227.myAtoi.md"};export{t as data};

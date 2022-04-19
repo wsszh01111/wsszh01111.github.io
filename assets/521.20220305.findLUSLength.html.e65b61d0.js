@@ -1,0 +1,1 @@
+const e={key:"v-96e2cd70",path:"/algorithms/leetcode/521.20220305.findLUSLength.html",title:"521. \u6700\u957F\u7279\u6B8A\u5E8F\u5217\u2160",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u601D\u8DEF1",slug:"\u601D\u8DEF1",children:[]}],git:{updatedTime:1646928831e3},filePathRelative:"algorithms/leetcode/521.20220305.findLUSLength.md"};export{e as data};

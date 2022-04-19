@@ -1,0 +1,1 @@
+const e={key:"v-6689b5a0",path:"/knowledge/js/Trailing%20commas.html",title:"Trailing commas",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u53C2\u8003",slug:"\u53C2\u8003",children:[]}],git:{updatedTime:1646843015e3},filePathRelative:"knowledge/js/Trailing commas.md"};export{e as data};

@@ -189,7 +189,8 @@ export default defineUserConfig<DefaultThemeOptions>({
                 '/algorithms/leetcode/354.20220329.MaxEnvelopes.md',
                 '/algorithms/leetcode/53.20220330.MaxSubArray.md',
                 '/algorithms/leetcode/1143.20220331.LongestCommonSubsequence.md',
-                '/algorithms/leetcode/712.20220401.MinimumDeleteSum.md'
+                '/algorithms/leetcode/712.20220401.MinimumDeleteSum.md',
+                '/algorithms/leetcode/821.20220419.ShortestToChar.md'
               ]
             }
           ]
